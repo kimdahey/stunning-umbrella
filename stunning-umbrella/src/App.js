@@ -10,11 +10,11 @@ function App() {
     <div className="App">
       <Router>
         <header className="header">
-          <h1>claire kim</h1>
+          <Link to="/">claire kim</Link>
           <div className="nav">
-            <Link to="/" className="nav-item">home</Link>
             <Link to="/about" className="nav-item">about</Link>
             <Link to="/projects" className="nav-item">projects</Link>
+            <Link to="/resume" className="nav-item">resume</Link>
           </div>
         </header>
 
